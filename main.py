@@ -14,7 +14,7 @@ async def on_ready():
     """
     Initiates Bot
     """
-    await client.change_presence(status=discord.Status.idle, activity=discord.Game('My Academic Results'))
+    await client.change_presence(status=discord.Status.online, activity=discord.Game('My Academic Results'))
     print('Bot is ready')
 
 @client.command()
